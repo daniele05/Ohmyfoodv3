@@ -1,0 +1,424 @@
+   .body{
+       margin: 0 !important;
+       padding: 0;
+}
+
+
+   .logo_Localisation_Reservation_Resto{
+   padding: 20px 20px 10px 10px;
+   background-color: white;
+   height: 63px;
+   }
+   .titre_Container_Localisation{
+       font-family: Shikhand;
+       font-size: 25px;
+       font-weight: 700;
+       margin-top: 30px;
+   }
+   .texte_Container_Localisation{
+       font-size: 17px;
+       font-weight: normal !important;
+       font-family: Roboto, sans-serif;
+       margin: 10px;
+   } 
+   .Container_Localisation_Reservation_Resto{
+       display: flex;
+       flex-direction: column;
+       box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
+       text-align: center;
+       margin: 5px;
+       padding: 0 0 50px 0;
+       background-color: #f2f2f2;
+       height: 401px;
+      
+   }
+   .point_geo_Localisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 20px;
+    height: 49px;
+   }
+   .GrandTitre{
+       margin-left: 20px;
+   }
+   .fa-map-marker-alt{
+   border: 3px;
+   margin-right: 15px;
+   }
+   .titre_Container_Localisation_Reservation_Resto{
+    font-family: Shirkhand;
+
+}
+   
+   
+   .text_input{
+       border: 3px;
+       background-color: lightgray;
+       font-family: Roboto, sans-serif;
+       font-size: 14px;
+   }
+   
+   .Parent_Petit_Container_Localisation_Reservation_Resto{
+       display: flex;
+       background-color: #f2f2f2;
+   }
+   .Petit_Container_Localisation_Reservation_Resto{
+       background-color: #f2f2f2;
+       padding: 0;
+       height: 287px;
+   }
+   .h2{
+       font-weight: normal;
+   }
+   .titre{
+       font-family: Shirkhand;
+       font-size: 17px;
+       margin-left: 8px;
+       /* margin-bottom: -2px; */
+   }
+   
+   .btn{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .button{
+    padding: 15px 30px 15px 30px;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%);
+    background: linear-gradient(#fdaff9, #9356dc) !important;
+    font-family: Roboto, sans-serif;
+    
+   }
+   .container_Titre_Fonctionnement{
+       margin-top: 60px;
+       
+   }
+   .Container_Fonctionnement_Reservation_Resto{
+       display: flex;
+       margin-left: 50px;
+       margin-right: 30px;
+       padding: 5px;
+       background-color: #f2f2f2;
+       justify-content: space-around;
+       align-items: baseline;
+       margin-bottom: 30px;
+       border-radius: 20px; 
+       position: relative;
+       height: 50px;
+   }
+   .Fonctionnement_Reservation_Resto_Numero{
+    display: flex;
+    margin: 10px;
+    color: #9356DC;
+    margin-left: -110px;
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+   }
+   .Forme_arrondie_Reservation_Resto_Numero{
+       margin-left: 70px;
+       margin-top: 15px;
+       padding: 10px 15px;
+       border-radius: 50%;
+       font-size: small;
+       background-color: #9356dc;
+       color: white;
+   
+   }
+   .fa-mobile-alt{
+       font-size: large;
+       margin-left: 5px;
+       color: darkgray;
+       margin-top: 5px;
+       padding: 5px;
+   }
+   .numero1{
+   margin-left: 40px;
+   color: black;
+   }
+   .Texte_Fonctionnement{
+       font-family: Roboto, sans-serif;
+       font-size: 14px;
+       width: 175px;
+       margin-top: 5px;
+   }
+   
+   .fa-list{
+    font-size: large;
+    margin-left: 5px;
+    color: darkgray;
+    margin-top: 5px;
+    padding: 5px;
+   }
+   .fa-store{
+    font-size: large;
+    margin-left: 5px;
+    color: #9356dc;
+    margin-top: 5px;
+    padding: 5px;
+       
+   }
+   .linear{
+       
+       background-color:#f5edff;
+   }
+   /* .color{
+    display: flex;
+    margin: 10px;
+    color: #9356DC;
+    margin-left: -110px;
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+   } */
+   
+   .Container_cards{
+    display: flex;
+    border: 3px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%); */
+    margin: 0;
+    padding: 30px;
+    flex: 100%;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+.card{
+    flex-direction: column;
+  box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  margin: 1rem 1rem;
+  height: 300px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+}
+.etiquette_Resto{
+  position: absolute;
+  background-color: #99e2d0;
+  padding: 0 10px;
+  top: 1rem;
+    right: 2rem;
+}
+  .titre_etiquette_card{
+   margin-top: 20px;
+    font-size: 13px;
+    font-family: Roboto, sans serif;
+    color:#13b343;
+} 
+.card_images_Resto{
+  border: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-texte-et-icone{
+    display: flex;
+    align-items: baseline;
+    margin-top: -20px;
+}
+.card-texte{
+
+    border: 3px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    
+    width: 100%;
+}
+.card-link{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+  }
+.card-icone{
+    border: 3px;
+    
+}
+.fa-heart{
+    margin-top: 2rem;
+    border: 3px;
+    font-size: x-large;
+    opacity: 1;
+    position: relative;
+
+}
+.hover-icon{
+    border: 3px;
+    margin-top: 2rem;
+    font-size: x-large;
+    /* background: -webkit-linear-gradient(#9356dc #ff79da); 
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color:transparent; */ 
+    text-shadow: 2px 4px 3px;
+    opacity: 0;
+    margin-left: -23px;
+    position: absolute;
+    -webkit-background-clip: text !important;
+        -moz-background-clip: text !important;
+        -webkit-text-fill-color:transparent;
+        background: -webkit-linear-gradient(bottom left, #9356dc,#ff79da );
+        background: -moz-linear-gradient(bottom left, #9356dc, #ff79da);
+        background: linear-gradient(to bottom left, #9356dc,#ff79da );
+
+}
+.fa-heart:hover {
+    cursor: pointer;
+    opacity: 0;
+    overflow: hidden;
+    }
+    
+    .hover-icon:hover {
+    opacity: 1;
+    cursor: pointer;
+    }
+h3{
+margin-top: -5px;
+}
+h4{
+margin-top: -5px;
+font-weight: normal;
+}
+    .Container_Resto_LesPlus {
+       display: block;
+       margin-top: -20px;
+       padding: 30px;
+       border: 3px solid;
+       background-color: #353535;
+       margin-left: 15px;
+       margin-right: 15px;
+       height: 194px;
+   }
+   .logo1_Localisation_Reservation_Resto
+   {
+       filter: invert(200%);
+       -webkit-filter: invert(200%);
+       padding-bottom: 5px;
+       margin: 20px;
+   }
+   
+   .icone_Partenariat_Reservation_Resto{
+       margin-right: 15px;
+       color: white;
+   }
+   .Partenariat_Reservations_Resto{
+       display: flex;
+       align-items: baseline;
+       margin-bottom: -10px;
+   }
+   .icone_Propositions_Reservation_Resto{
+       margin-right: 15px;
+       color: white;
+   }
+   .Propositions_Reservations_Resto{
+       display: inline-flex;
+       align-items: baseline;
+       margin-bottom: -10px;
+   }
+   /* .card_3{
+       display: flex;
+       flex-direction: column;
+       box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%);
+       padding: 1px 1px 25px 1px;
+       margin: 20px;
+       flex: 25%;
+       border-radius: 15px;
+       background-color: #fff;
+   }
+   .card_3_image_Resto{}
+   
+   p{
+       font-size: Roboto, sans-serif;
+   }
+   
+   .texte_card{
+          margin-left: 8px;
+          font-family: Roboto, sans-serif;
+          font-size: 13px;
+          padding-bottom: 45px;
+   } */
+   .footer_texte_Propositions_Reservations_Resto{
+       font-family: Shirkhand;
+       font-size: 18px;
+       color: white;
+   }
+  
+   .footer_texte_Propositions_Reservations_Resto_Contact a{
+       text-decoration: none;
+       font-family: Shirkhand;
+       font-size: 18px;
+       color: white;
+   }
+   /**Loader spinner**/
+   .loader {
+    border: 16px solid #fef1ff;
+    border-radius: 50%;
+    border-top: 16px solid #a41bb1;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg);
+     
+     }
+  }
+.spiner-container{
+    overflow: hidden;
+    position: absolute;
+ /* background-attachment: fixed; */
+ background: -webkit-linear-gradient(bottom left, #9356dc,#ff79da );
+ background: -moz-linear-gradient(bottom left, #9356dc, #ff79da);
+ background: linear-gradient(to bottom left, #9356dc,#ff79da );;
+ z-index: 99;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    animation: hideloader 5s ease-in-out forwards;
+}
+@keyframes hideloader {
+    0% { opacity: 1;}
+    100% { 
+        opacity: 0;
+        z-index: -99;
+     
+    }
+  }
+.center{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

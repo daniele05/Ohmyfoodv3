@@ -1,0 +1,34 @@
+
+
+
+ @media (min-width: 800px){
+     .container_cards{
+     display: inline-block;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     }
+
+     .card{
+         width: 100%;
+         height:100%
+
+     }
+    }
+    
+ @media (min-width: 1024px) { 
+    .Container_cards{
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+    
+    }
+       .card{
+           width: 40%;
+           margin-top: 5rem;
+           height: 350px;
+    
+       }
+     }

@@ -1,12 +1,9 @@
 /* body */
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
-
-* {
-    box-sizing: border-box;
-}
+*{box-sizing: border-box;}
 .header--menu{
     margin-right: 10px;
     padding: 20px;
@@ -20,16 +17,15 @@ font-family: Robot, sans-serif;
 
 .fa-heart{
     font-family: Robot, sans-serif;
-    font-size: large;
-    margin-top: 60px;
+    font-size: x-large;
+    margin-top: 35px;
 }
 
 .Container_Localisation_Reservation_Resto{
     display: flex;
     flex-direction: column;
-    margin: -5px;
     padding: 0 0 10px 0;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
 }
 .logo_Localisation_Reservation_Resto{
     margin-bottom: -10px;
@@ -39,19 +35,23 @@ font-family: Robot, sans-serif;
     width: 100%;
     max-height: 300px;
     object-fit: cover;
+    position: absolute;
+    z-index: -999;
 }
-
+.titre_detail_menu{
+    display: flex;
+    
+}
 .titre_detail_et_icone{
    display: flex;
    justify-content: space-between;
-    align-items: baseline;
-    height: 7rem;
-    font-family: Shikhand;
-    font-size: 16px;
+    /* height: 7rem;
+    font-size: 16px; */
 }
 .icone_titre_detail_card{
     font-weight: 800;
-    font-size:  40px; ;
+    font-size:  40px;
+    margin-top: -10px;
 }
 .grand_titre_detail_menu{
     font-size: 30px;
@@ -65,15 +65,25 @@ font-family: Robot, sans-serif;
 h3{
     font-weight: normal;
 }
+.menu_wrapper{
+    padding: 0 1rem;
+    position: relative;
+    /* position: absolute; */
+    top: 15rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 999;
+    background-color: #f6f6f6;
+}
 .menu {
     /* border: 3px solid #f2f2f2; */
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     margin-top: -10px;
     position: relative;
+    padding: 0 1rem;
     z-index: 99;
-}
-
+  }
 /* .menu{
     border: 3px solid #f2f2f2;
     border-top-left-radius: 30px;
@@ -82,20 +92,24 @@ h3{
     position: relative;
     z-index: 99;
 } */
+
 .section_menu_1{
     animation: slidein 3s 0.2s;
     cursor: pointer;
     -webkit-animation: slidein 3s 0.2s;
+    padding: 0 1rem;
 }
 .section_menu_2{
     animation: slidein 3s 0.4s;
     cursor: pointer;
     -webkit-animation: slidein 3s 0.4s;
+     padding: 0 1rem;
 }
 .section_menu_3{
     animation: slidein 3s 0.6s;
     cursor: pointer;
     -webkit-animation: slidein 3s 0.6s;
+    padding: 0 1rem;
 }
 @keyframes slidein{
     0%{
@@ -116,9 +130,9 @@ h3{
 .menu_card {
  border-radius: 15px;
  background-color: #fff;
--webkit-box-shadow: -2px 12px 28px -10px #000000; 
+ -webkit-box-shadow: -2px 12px 28px -10px #000000; 
  display: flex; 
- box-shadow: .2rem .8rem 1rem #808080; 
+ box-shadow: .2rem .8rem 1rem #808080;
 justify-content: space-between; 
 margin-top: 1rem; 
 height: 5rem; 
@@ -199,42 +213,48 @@ overflow: hidden;
     margin: 0;
     margin-top: -10px;
 }
-
 .section_btn:hover{
-cursor: pointer;
-}
-.btn_commande{
-    display: flex;
-    justify-content: center;
-   
-}
-.button{
-    margin-top: 30px;
-    /* padding: 30px; */
-    margin-bottom: 20px;
-    /* width: 150px; */
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    color: white;
-    /* margin-left: 80px; */
-    border-radius: 30px;
-    padding: 15px 50px 15px 50px;
-    background: linear-gradient(#fdaff9, #9356dc) !important;
-    box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%);
-}
-.Container_Localisation_Reservation_Resto:hover
-.button{
     cursor: pointer;
-}
+    }
+    .btn_commande{
+        display: flex;
+        justify-content: center;
+        position: relative;
+      top: 20rem;
+       
+    }
+    .button{
+        margin-top: 30px;
+        /* padding: 30px; */
+        margin-bottom: 20px;
+        /* width: 150px; */
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        color: white;
+        /* margin-left: 80px; */
+        border-radius: 30px;
+        padding: 1px 70px 1px 70px;
+        background: linear-gradient(#fdaff9, #9356dc) !important;
+        box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%);
+    }
+    .Container_Localisation_Reservation_Resto:hover
+    .button{
+        cursor: pointer;
+    }
 
+
+footer{
+    top: 10rem;
+    position: relative;
+}
 .Container_Resto_LesPlus {
+    top: 10rem;
+    position: relative;
     display: block;
     padding: 10px;
-    /* margin-top: -40px;
-    margin-left: 30px;
-    margin-right: 30px; */
     border: 3px solid;
-    background-color: #333;
+    background-color: #353535;
+    
 }
 .logo1_Localisation_Reservation_Resto
 {
@@ -323,10 +343,31 @@ cursor: pointer;
       
 }
 } 
-/* .menu_card:hover > .menu_card_box_all_text_check{
-   margin-left: 0px;
-   animation: movein 0.90s reverse linear ;
-} */
 
+/**Media queries**/
+@media screen and (min-width:750px) and (max-width: 1023px)
+{
+   
+  .menu_wrapper{
+       padding: 0 4rem;
+   }
+   
+}
 
-
+@media screen and (min-width: 1024px){
+    .Container_Localisation_Reservation_Resto{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .menu_wrapper{
+        padding: 0 8rem;
+        top: 18rem;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        
+        
+    }
+    
+}

@@ -10,7 +10,7 @@
    height: 63px;
    }
    .titre_Container_Localisation{
-       font-family: Shikhand;
+    font-family: Roboto, sans-serif;
        font-size: 25px;
        font-weight: 700;
        margin-top: 30px;
@@ -27,7 +27,7 @@
        box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
        text-align: center;
        margin: 5px;
-       padding: 0 0 50px 0;
+       padding: 0 0 30px 0;
        background-color: #f2f2f2;
        height: 401px;
       
@@ -42,6 +42,8 @@
    }
    .GrandTitre{
        margin-left: 20px;
+       font-family: Roboto, sans-serif;
+       padding: 10px;
    }
    .fa-map-marker-alt{
    border: 3px;
@@ -96,8 +98,8 @@
     font-family: Roboto, sans-serif;
     
    }
-   .container_Titre_Fonctionnement{
-       margin-top: 60px;
+   .container_Titre{
+       margin-top: 50px;
        
    }
    .Container_Fonctionnement_Reservation_Resto{
@@ -124,19 +126,20 @@
    }
    .Forme_arrondie_Reservation_Resto_Numero{
        margin-left: 70px;
-       margin-top: 15px;
+       margin-top: 20px;
        padding: 10px 15px;
        border-radius: 50%;
        font-size: small;
        background-color: #9356dc;
        color: white;
+       font-family: Roboto, sans-serif;
    
    }
    .fa-mobile-alt{
        font-size: large;
        margin-left: 5px;
        color: darkgray;
-       margin-top: 5px;
+       /* margin-top: 5px; */
        padding: 5px;
    }
    .numero1{
@@ -147,14 +150,15 @@
        font-family: Roboto, sans-serif;
        font-size: 14px;
        width: 175px;
-       margin-top: 5px;
+       /* margin-top: 5px; */
+       font-weight: 700;
    }
    
    .fa-list{
     font-size: large;
     margin-left: 5px;
     color: darkgray;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     padding: 5px;
    }
    .fa-store{
@@ -178,6 +182,19 @@
     left: 1rem;
     top: -1rem;
    } */
+   h3{
+    font-weight: 700;
+    margin: top -5px;
+    font-size: medium;
+    font-family: Roboto, sans-serif;
+    margin-top: -5px; 
+   }
+   h5{
+       font-weight: normal;
+       font-size: small;
+       font-family: Roboto, sans-serif;
+       margin-top: -15px;
+   }
    
    .Container_cards{
     display: flex;
@@ -186,7 +203,7 @@
     flex-direction: column;
     /* box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%); */
     margin: 0;
-    padding: 30px;
+    padding: 50px;
     flex: 100%;
     border-radius: 10px;
     background-color: #f2f2f2;
@@ -196,24 +213,37 @@
   box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.1);
   padding: 2px;
   margin: 1rem 1rem;
-  height: 300px;
+  /* height: 300px; */
+  height: 280px;
   width: 90%;
   border-radius: 10px;
   background-color: #fff;
   position: relative;
 }
 .etiquette_Resto{
-  position: absolute;
+  /* position: absolute;
   background-color: #99e2d0;
   padding: 0 10px;
   top: 1rem;
-    right: 2rem;
+    right: 2rem; */
+    position: absolute;
+    background-color: #99e2d0;
+    padding: 0 10px;
+    top: 1rem;
+    /* right: 1rem; */
+    right: 0.75rem;
+    height: 25px;
 }
   .titre_etiquette_card{
-   margin-top: 20px;
+   /* margin-top: 20px;
     font-size: 13px;
     font-family: Roboto, sans serif;
-    color:#13b343;
+    color:#13b343; */
+    margin: 1px;
+    margin-top: 6px;
+    font-size: 13px;
+    font-family: Roboto, sans serif;
+    color: #13b343;
 } 
 .card_images_Resto{
   border: 3px;
@@ -231,14 +261,8 @@
     margin-top: -20px;
 }
 .card-texte{
-
-    border: 3px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     margin-left: 10px;
-    
-    width: 100%;
+    width: 85%;
 }
 .card-link{
     display: flex;
@@ -294,21 +318,19 @@ a {
     opacity: 1;
     cursor: pointer;
     }
-h3{
-margin-top: -5px;
-}
-h4{
-margin-top: -5px;
-font-weight: normal;
-}
+
+/* h4{ */
+/* margin-top: -5px; */
+/* font-weight: normal; */
+/* } */
     .Container_Resto_LesPlus {
        display: block;
        margin-top: -20px;
        padding: 30px;
        border: 3px solid;
        background-color: #353535;
-       margin-left: 15px;
-       margin-right: 15px;
+       margin-left: 1px;
+       margin-right: 1px;
        height: 194px;
    }
    .logo1_Localisation_Reservation_Resto

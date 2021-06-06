@@ -1,8 +1,9 @@
    .body{
        margin: 0 !important;
        padding: 0;
+       width: 160px;
+       height: 966px;
 }
-
 
    .logo_Localisation_Reservation_Resto{
    padding: 20px 20px 10px 10px;
@@ -41,7 +42,7 @@
     height: 49px;
    }
    .GrandTitre{
-       margin-left: 20px;
+    margin-left: 15px;
        font-family: Roboto, sans-serif;
        padding: 10px;
    }
@@ -98,6 +99,17 @@
     font-family: Roboto, sans-serif;
     
    }
+   /* .button:hover{
+    background: linear-gradient(#fdaff9, #9356dc) !important;
+    opacity: 1;
+
+   } */
+   .btn:hover > .button{
+       cursor: pointer;
+       background: linear-gradient(#fdaff9, #9356dc) !important;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 50%);
+    opacity: 0.8;
+   }
    .container_Titre{
        margin-top: 50px;
        
@@ -109,7 +121,7 @@
        padding: 5px;
        background-color: #f2f2f2;
        justify-content: space-around;
-       align-items: baseline;
+       align-items: center;
        margin-bottom: 30px;
        border-radius: 20px; 
        position: relative;
@@ -195,18 +207,22 @@
        font-family: Roboto, sans-serif;
        margin-top: -15px;
    }
-   
+   /* .Container_cards_title{
+    margin: -40px;
+    padding-bottom: 50px;
+   } */
    .Container_cards{
     display: flex;
     border: 3px;
     display: flex;
     flex-direction: column;
-    /* box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%); */
-    /* margin: 0; */
-    /* padding: 50px; */
-    margin-top: 50px;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%); 
+    margin: 0;
+     padding-bottom: 50px;
+    /* margin-top: 50px; */
+    margin-top: 10px;
     flex: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: #f2f2f2;
 }
 .card{
@@ -263,7 +279,7 @@
 }
 .card-texte{
     margin-left: 10px;
-    width: 85%;
+    width: 75%;
 }
 .card-link{
     display: flex;
@@ -297,7 +313,7 @@ a {
     /* background: -webkit-linear-gradient(#9356dc #ff79da); 
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color:transparent; */ 
-    text-shadow: 2px 4px 3px;
+    /* text-shadow: 2px 4px 3px; */
     opacity: 0;
     margin-left: -23px;
     position: absolute;
@@ -319,14 +335,13 @@ a {
     opacity: 1;
     cursor: pointer;
     }
+    
 
-/* h4{ */
-/* margin-top: -5px; */
-/* font-weight: normal; */
-/* } */
+
     .Container_Resto_LesPlus {
        display: block;
-       margin-top: -20px;
+       /* margin-top: -20px; */
+       margin-top: -1px;
        padding: 30px;
        border: 3px solid;
        background-color: #353535;
@@ -350,6 +365,7 @@ a {
        display: flex;
        align-items: baseline;
        margin-bottom: -10px;
+       font-family: Roboto sans-serif;
    }
    .icone_Propositions_Reservation_Resto{
        margin-right: 15px;
@@ -360,39 +376,23 @@ a {
        align-items: baseline;
        margin-bottom: -10px;
    }
-   /* .card_3{
-       display: flex;
-       flex-direction: column;
-       box-shadow: 0.1rem 0.1rem 0.4rem rgb(0 0 0 / 10%);
-       padding: 1px 1px 25px 1px;
-       margin: 20px;
-       flex: 25%;
-       border-radius: 15px;
-       background-color: #fff;
-   }
-   .card_3_image_Resto{}
    
-   p{
-       font-size: Roboto, sans-serif;
-   }
-   
-   .texte_card{
-          margin-left: 8px;
-          font-family: Roboto, sans-serif;
-          font-size: 13px;
-          padding-bottom: 45px;
-   } */
    .footer_texte_Propositions_Reservations_Resto{
-       font-family: Shirkhand;
+       font-family: Roboto, sans-serif;
        font-size: 18px;
        color: white;
+       font-weight: normal;
    }
   
+    .texte_Partenariat_Reservations_Resto{
+        font-family: Roboto, sans-serif;
+    }
    .footer_texte_Propositions_Reservations_Resto_Contact a{
        text-decoration: none;
-       font-family: Shirkhand;
+       font-family: Roboto, sans-serif;
        font-size: 18px;
        color: white;
+       font-weight: normal;
    }
    /**Loader spinner**/
    .loader {

@@ -1,4 +1,3 @@
-
 /* body */
 body{
     margin: 0%;
@@ -95,24 +94,24 @@ h3{
 } */
 
 .section_menu_1{
-    /* animation: slidein 3s 0.2s; */
+    animation: slidein 3s 0.2s;
     cursor: pointer;
-    /* -webkit-animation: slidein 3s 0.2s; */
+    -webkit-animation: slidein 3s 0.2s;
     padding: 0 1rem;
 }
 .section_menu_2{
-    /* animation: slidein 3s 0.4s; */
+    animation: slidein 3s 0.4s;
     cursor: pointer;
-    /* -webkit-animation: slidein 3s 0.4s; */
+    -webkit-animation: slidein 3s 0.4s;
      padding: 0 1rem;
 }
 .section_menu_3{
-    /* animation: slidein 3s 0.6s; */
+    animation: slidein 3s 0.6s;
     cursor: pointer;
-    /* -webkit-animation: slidein 3s 0.6s; */
+    -webkit-animation: slidein 3s 0.6s;
     padding: 0 1rem;
 }
-/* @keyframes slidein{
+@keyframes slidein{
     0%{
         transform: translateY(-20px);
         opacity: 0;
@@ -126,7 +125,7 @@ h3{
            -ms-transform: translateY(0);
            -o-transform: translateY(0);
 }
-} */
+}
 
 .menu_card {
  border-radius: 15px;
@@ -146,6 +145,12 @@ overflow: hidden;
     white-space: nowrap; 
     overflow: hidden; 
     text-overflow: ellipsis; 
+    flex-direction: column;
+flex-wrap: nowrap;
+ width: 70%; 
+align-items: center; 
+padding: 1rem 0rem 0rem 1rem;
+ /* padding: 1rem;  */
 }
 .menu_card_box_all_text{
     font-family: Roboto, sans-serif;
@@ -161,15 +166,7 @@ display: flex;
 height: 100%; 
 cursor: pointer; 
 }
-.menu_card_box_contenu{
 
-flex-direction: column;
-flex-wrap: nowrap;
- width: 70%; 
-align-items: center; 
-padding: 1rem 0rem 0rem 1rem;
- /* padding: 1rem;  */
-}
 .menu_card_box_contenu_text{
 display: block;
  font-weight:700;
@@ -298,8 +295,9 @@ footer{
 
 
 .menu_card:hover .menu_card_box_all_text_check{
-    animation: movein 3s;
+    animation: movein 2s;
     animation-fill-mode: forwards;
+    -webkit-animation: movein 2s;
 }
   .menu_card:hover .menu_card_box_all_text_check > .fas{
    animation: rotating 2s;

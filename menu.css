@@ -8,6 +8,8 @@ body{
 .header--menu{
     margin-right: 10px;
     padding: 20px;
+    display: flex;
+    align-content: center;
 }
 
 .fa-arrow-left{
@@ -15,15 +17,42 @@ font-size: large;
 color: black;
 font-family: Robot, sans-serif;
 }
-
 .fa-heart{
-    font-family: Robot, sans-serif;
+    margin-top: 2rem;
+    border: 3px;
     font-size: x-large;
-    margin-top: 35px;
+    opacity: 1;
+    position: relative;
+
 }
-.fa-heart:hover{
+.hover-icon{
+    border: 3px;
+    margin-top: 2rem;
+    font-size: x-large;
+    opacity: 0;
+    margin-left: -23px;
+    position: absolute;
+    -webkit-background-clip: text !important;
+        -moz-background-clip: text !important;
+        -webkit-text-fill-color:transparent;
+        background: -webkit-linear-gradient(bottom left, #9356dc,#ff79da );
+        background: -moz-linear-gradient(bottom left, #9356dc, #ff79da);
+        background: linear-gradient(to bottom left, #9356dc,#ff79da );
+
+}
+.fa-heart:hover {
     cursor: pointer;
-}
+    opacity: 0;
+    overflow: hidden;
+    }
+    
+    .hover-icon:hover {
+    opacity: 1;
+    cursor: pointer;
+    }
+    
+    
+
 
 .Container_Localisation_Reservation_Resto{
     display: flex;
@@ -33,7 +62,7 @@ font-family: Robot, sans-serif;
 }
 .logo_Localisation_Reservation_Resto{
     margin-bottom: -10px;
-    margin-left: 120px;
+    margin-left: 50px;
 }
 .meme_hauteur{
     width: 100%;
@@ -56,10 +85,10 @@ font-family: Robot, sans-serif;
 .icone_titre_detail_card{
     font-weight: 800;
     font-size:  40px;
-    /* margin-top: 1px; */
+    border: 3px;
 }
 .grand_titre_detail_menu{
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Shrikhand', cursive;
     text-align: center;
 }
@@ -103,20 +132,17 @@ h3{
     animation: slidein 3s 0.2s;
     cursor: pointer;
     -webkit-animation: slidein 3s 0.2s;
-    padding: 0 1rem;
 }
 .section_menu_2{
     animation: slidein 3s 0.4s;
     cursor: pointer;
     -webkit-animation: slidein 3s 0.4s;
-     padding: 0 1rem;
      margin-top: 30px;
 }
 .section_menu_3{
     animation: slidein 3s 0.6s;
     cursor: pointer;
     -webkit-animation: slidein 3s 0.6s;
-    padding: 0 1rem;
     margin-top: 30px;
 }
 @keyframes slidein{
@@ -173,7 +199,7 @@ margin-right: 2px;
 }
 .menu_card_box{
 display: flex; 
- width: 100%;
+ width: 70%;
 height: 100%; 
 cursor: pointer; 
 }

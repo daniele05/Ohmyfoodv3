@@ -7,7 +7,7 @@ body{
 *{box-sizing: border-box;}
 .header--menu{
     margin-right: 10px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-content: center;
 }
@@ -15,6 +15,7 @@ body{
 .fa-arrow-left{
 font-size: large;
 color: black;
+margin-top: 10px;
 font-family: Robot, sans-serif;
 }
 .fa-heart{
@@ -104,7 +105,7 @@ h3{
     padding: 0 1rem;
     position: relative;
     /* position: absolute; */
-    top: 15rem;
+    top: 13rem;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     z-index: 999;
@@ -251,13 +252,22 @@ overflow: hidden;
     margin-top: -10px;
 }
 .section_btn:hover{
+    
     cursor: pointer;
     }
+    .section_btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -20px;
+    } 
     .btn_commande{
         display: flex;
-        justify-content: center;
-        position: relative;
-      top: 20rem;
+    justify-content: center;
+    position: relative;
+    top: 20rem;
+    margin-top: -70px;
+    margin-bottom: 80px;
        
     }
     .button{

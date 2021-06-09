@@ -2,6 +2,7 @@
 body{
     margin: 0%;
     padding: 0%;
+
 }
 *{box-sizing: border-box;}
 .header--menu{
@@ -19,6 +20,9 @@ font-family: Robot, sans-serif;
     font-family: Robot, sans-serif;
     font-size: x-large;
     margin-top: 35px;
+}
+.fa-heart:hover{
+    cursor: pointer;
 }
 
 .Container_Localisation_Reservation_Resto{
@@ -45,17 +49,19 @@ font-family: Robot, sans-serif;
 .titre_detail_et_icone{
    display: flex;
    justify-content: space-between;
+   align-items: baseline;
     /* height: 7rem;
     font-size: 16px; */
 }
 .icone_titre_detail_card{
     font-weight: 800;
     font-size:  40px;
-    margin-top: -10px;
+    /* margin-top: 1px; */
 }
 .grand_titre_detail_menu{
     font-size: 30px;
     font-family: 'Shrikhand', cursive;
+    text-align: center;
 }
 .section_menu_titre{
     font-family: Shirkhand;
@@ -104,12 +110,14 @@ h3{
     cursor: pointer;
     -webkit-animation: slidein 3s 0.4s;
      padding: 0 1rem;
+     margin-top: 30px;
 }
 .section_menu_3{
     animation: slidein 3s 0.6s;
     cursor: pointer;
     -webkit-animation: slidein 3s 0.6s;
     padding: 0 1rem;
+    margin-top: 30px;
 }
 @keyframes slidein{
     0%{
@@ -135,7 +143,8 @@ h3{
  box-shadow: .2rem .8rem 1rem #808080;
 justify-content: space-between; 
 margin-top: 1rem; 
-height: 5rem; 
+/* height: 5rem;  */
+height: 4.3rem;
 overflow: hidden;
 /* padding: 10px; */
 } 
@@ -150,6 +159,8 @@ flex-wrap: nowrap;
  width: 70%; 
 align-items: center; 
 padding: 1rem 0rem 0rem 1rem;
+margin-left: 2px;
+margin-right: 2px;
  /* padding: 1rem;  */
 }
 .menu_card_box_all_text{
@@ -181,6 +192,7 @@ overflow: hidden;
  font-family: Roboto, sans-serif;
  font-size: 12px;
  font-weight: normal !important;
+ margin-top: 2px;
 }
 .menu_card_box_all_text_price{
     display: flex;
@@ -191,6 +203,7 @@ overflow: hidden;
     align-items: center;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    font-family: Roboto, sans-serif;
 }
 .menu_card_box_all_text_check{
  background-color:#99E2D0; 

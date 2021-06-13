@@ -2,6 +2,16 @@
 
 
  @media (min-width: 800px){
+     *{
+         box-sizing: border-box;
+     }
+     /*passer body ( et tous les élémnets de largeur fixe) en largeur automatique*/
+
+     body{
+     width: auto;
+     margin: 0;
+     padding: 0;
+     }
     .Container_cards_menu
 
     {
@@ -18,6 +28,16 @@
     }
     
  @media (min-width: 1024px) { 
+    *{
+        box-sizing: border-box;
+    }
+    /*passer body ( et tous les élémnets de largeur fixe) en largeur automatique*/
+
+    body{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    }
     .Container_cards_menu{
         display: flex; 
         flex-direction: row;

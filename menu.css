@@ -100,7 +100,7 @@ font-family: Robot, sans-serif;
 }
 h3{
     font-weight: normal;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
 }
 .menu_wrapper{
     padding: 0 1rem;
@@ -348,11 +348,12 @@ footer{
 .menu_card:hover .menu_card_box_all_text_check{
     animation: movein 2s;
     animation-fill-mode: forwards;
-    -webkit-animation: movein 2s;
+    /* animation-delay: 2s; */
 }
   .menu_card:hover .menu_card_box_all_text_check > .fas{
    animation: rotating 2s;
    animation-fill-mode: forwards;
+   /* animation-delay: 2s; */
 
 }
 

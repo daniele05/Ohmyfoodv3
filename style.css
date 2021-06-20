@@ -134,7 +134,7 @@
     margin-left: -110px;
     position: absolute;
     left: 1rem;
-    top: -1rem;
+    top: -1.5rem;/* ajout de 0.5rem*/
    }
    .Forme_arrondie_Reservation_Resto_Numero{
        margin-left: 70px;
@@ -343,7 +343,7 @@ a {
        background-color: #353535;
        margin-left: 1px;
        margin-right: 1px;
-       height: 194px;
+       /* height: 194px; */
    }
    .logo1_Localisation_Reservation_Resto
    {
